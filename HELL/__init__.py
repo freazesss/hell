@@ -14,14 +14,15 @@ class Hell:
     \___|_  /  \___  >____/____/
     \/       \/           
         """
-        print(f"""\033[0;31m{asincart}\033[m""")
-        print("\033[0;32m> Tool to create Flask websites\033[m")
+
+        print(f"""\033[0;31m{asincart}\033[m\n\033[0;32m> Tool to create Flask websites\033[m""")
 
         try:
             self.question = input("\033[0;33m[1] Create app\n[2] Delete app\n[3] Run app\033[m\n\n\033[0;35mType it:\033[m")
             self.commands()
         except KeyboardInterrupt:
             return 
+            
     def commands(self):
         if self.question == "1":
             create.create()
