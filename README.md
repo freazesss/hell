@@ -5,7 +5,7 @@
 # Hell
 [![license](https://img.shields.io/github/license/freazesss/hell.svg)](./LICENSE)
 ![stars](https://img.shields.io/github/stars/freazesss/hell.svg)
-![contributors](https://img.shields.io/github/contributors/freazesss/hellsvg)
+![contributors](https://img.shields.io/github/contributors/freazesss/hell.svg)
 > tool to create flask websites
 
 # 👨‍💻 Usage
