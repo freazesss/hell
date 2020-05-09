@@ -21,8 +21,6 @@ $ pip install flask
 $ python run.py
 ```
 
-______
-
 # 🔧 To-Do
 
 - [x] Improve the ``README``.
@@ -34,7 +32,6 @@ ______
 
 #### If you find a error open a ``ISSUE``, if you want to change something open a ``PULL REQUEST``.
 
-_____
 
 # License
 #### [MIT ©](./LICENSE) freazesss
