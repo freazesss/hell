@@ -12,8 +12,8 @@ class create:
     def blueprint(self):
         system('mkdir app/')
         system('mkdir app/home')
-        f = open('app/home/views.py', 'w')
-        f.write("""
+        with open('app/home/views.py', 'w') as f:
+            f.write("""
 from . import home
 from flask import render_template
 
@@ -22,11 +22,10 @@ def homepage():
     return render_template('home.html')
 # Hell
 """)  
-        f.close()
 
         system('mkdir app/templates')
-        f = open('app/templates/home.html', 'w')
-        f.write("""
+        with open('app/templates/home.html', 'w') as f:
+            f.write("""
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,8 +39,8 @@ def homepage():
 </html>       
 """)
 
-        f = open('app/home/__init__.py', 'w')
-        f.write("""
+        with open('app/home/__init__.py', 'w') as f:
+            f.write("""
 from flask import Blueprint
 
 home = Blueprint('home', __name__)
@@ -50,10 +49,9 @@ from . import views
 
 # Hell
 """)  
-        f.close()
 
-        f = open('app/run.py', 'w')
-        f.write("""
+        with open('app/run.py', 'w') as f:
+            f.write("""
 from flask import Flask
 from home import home
 
@@ -64,12 +62,11 @@ app.run(debug=True)
 
 # Hell
 """)  
-        f.close()
 
     def one_file(self):
         system('mkdir app')
-        f = open('app/main.py', 'w')
-        f.write("""
+        with open('app/main.py', 'w') as f:
+            f.write("""
 from flask import Flask
 
 app = Flask(__name__)
@@ -82,4 +79,3 @@ app.run(debug=True)
 
 # Hell
 """)  
-        f.close()
