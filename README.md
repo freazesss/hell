@@ -1,21 +1,14 @@
-<h1 align=center>Hell</h1>
+<p align=center>
+<img src='https://user-images.githubusercontent.com/60306241/81466305-f6d56400-91a6-11ea-963f-59b841c0c9af.png' width=300>
+</p>
 
+# Hell
+[![license](https://img.shields.io/github/license/freazesss/hell.svg)](./LICENSE)
+![stars](https://img.shields.io/github/stars/freazesss/hell.svg)
+![contributors](https://img.shields.io/github/contributors/freazesss/hellsvg)
 > tool to create flask websites
 
-# Topics
-
-- [Requirements](#requirements)
-- [How to use](#how-to-use)
-
-# Requirements
-
-> :snake: Python 3x
-
-> Flask
-
-> Git
-
-# How to use
+# 👨‍💻 Usage
 
 ```sh
 # Clone
@@ -27,3 +20,21 @@ $ pip install flask
 # Run
 $ python run.py
 ```
+
+______
+
+# 🔧 To-Do
+
+- [x] Improve the ``README``.
+- [ ] Create a ``website`` for this project.
+
+
+
+# 🌎 Contribute
+
+#### If you find a error open a ``ISSUE``, if you want to change something open a ``PULL REQUEST``.
+
+_____
+
+# License
+#### [MIT ©](./LICENSE) freazesss
