@@ -44,6 +44,7 @@ Hell("")
 # 🌎 Contribute
 
 #### If you find a error open a ``ISSUE``, if you want to change something open a ``PULL REQUEST``.
+_______
 
 # 👨‍💻 Utilização
 
@@ -78,6 +79,8 @@ Hell("")
 # 🌎 Contribute
 
 #### Se você achou um erro abra uma ``ISSUE``, se você quer mudar algo abra uma ``PULL REQUEST``.
+
+______
 
 # License
 #### [MIT ©](./LICENSE) freazesss
