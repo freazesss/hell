@@ -1,15 +1,28 @@
 from os import system
 
 class create:
-    def __init__(self):
-        self.create_files()
-    def create_files(self):
+    def __init__(self, website_name):
+        self.website_name = website_name
+        self.run() # Call the run function
+    def run(self):
+        """
+        Websites templates.
+        """
         ques = input('\n\033[0;33m[1] Basic app\n > A Simple website with one file\n[2] Basic app with Blueprint\n > A Simple website with blueprint\n\033[0;35mType it:\033[m')
+        
         if ques == "1":
             self.one_file()
         elif ques == "2":
             self.blueprint()
+        else:
+            print('\033[0;35mYou type it something wrong\033[m')
+            self.run()
+            
     def blueprint(self):
+        """
+        Blueprint template.
+        """
+
         system('mkdir app/')
         system('mkdir app/home')
         with open('app/home/views.py', 'w') as f:
@@ -25,16 +38,16 @@ def homepage():
 
         system('mkdir app/templates')
         with open('app/templates/home.html', 'w') as f:
-            f.write("""
+            f.write(f"""
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hell</title>
+    <title>{self.website_name}</title>
 </head>
 <body>
-    <h1>Hell</h1>
+    <h1>{self.website_name}</h1>
 </body>
 </html>       
 """)
@@ -64,6 +77,10 @@ app.run(debug=True)
 """)  
 
     def one_file(self):
+        """
+        One file template.
+        """
+
         system('mkdir app')
         with open('app/main.py', 'w') as f:
             f.write("""

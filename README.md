@@ -6,7 +6,8 @@
 [![license](https://img.shields.io/github/license/freazesss/hell)](./LICENSE)
 ![stars](https://img.shields.io/github/stars/freazesss/hell.svg)
 ![contributors](https://img.shields.io/github/contributors/freazesss/hell.svg)
-> tool to create flask websites
+
+> 💀 tool to automate create flask sites.
 
 # 👨‍💻 Usage
 
@@ -20,6 +21,14 @@ $ pip install flask
 # Run
 $ python run.py
 ```
+
+#### On the ``run.py`` file we have:
+```py
+from HELL import Hell
+
+Hell("")
+```
+#### On the ``double quotes`` you go to put your website name.
 
 # 🔧 To-Do
 

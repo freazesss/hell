@@ -2,6 +2,6 @@ from os import system
 
 class run:
     def __init__(self):
-        self.run_app()
-    def run_app(self):
+        self.run()
+    def run(self):
         system("python3 app/run.py")

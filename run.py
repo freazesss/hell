@@ -1,3 +1,3 @@
 from HELL import Hell
 
-Hell()
+Hell("")
