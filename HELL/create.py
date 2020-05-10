@@ -9,22 +9,20 @@ class create:
         Websites templates.
         """
         ques = input('\n\033[0;33m[1] Basic app\n > A Simple website with one file\n[2] Basic app with Blueprint\n > A Simple website with blueprint\n\033[0;35mType it:\033[m')
-        
+
         if ques == "1":
             self.one_file()
         elif ques == "2":
             self.blueprint()
         else:
             print('\033[0;35mYou type it something wrong\033[m')
-            self.run()
-            
+
     def blueprint(self):
         """
         Blueprint template.
         """
 
-        system('mkdir app/')
-        system('mkdir app/home')
+        system('mkdir -p app/home')
         with open('app/home/views.py', 'w') as f:
             f.write("""
 from . import home
@@ -34,7 +32,7 @@ from flask import render_template
 def homepage():
     return render_template('home.html')
 # Hell
-""")  
+""")
 
         system('mkdir app/templates')
         with open('app/templates/home.html', 'w') as f:
@@ -49,7 +47,7 @@ def homepage():
 <body>
     <h1>{self.website_name}</h1>
 </body>
-</html>       
+</html>
 """)
 
         with open('app/home/__init__.py', 'w') as f:
@@ -61,7 +59,7 @@ home = Blueprint('home', __name__)
 from . import views
 
 # Hell
-""")  
+""")
 
         with open('app/run.py', 'w') as f:
             f.write("""
@@ -74,7 +72,7 @@ app.register_blueprint(home)
 app.run(debug=True)
 
 # Hell
-""")  
+""")
 
     def one_file(self):
         """
@@ -95,4 +93,4 @@ def homepage():
 app.run(debug=True)
 
 # Hell
-""")  
+""")

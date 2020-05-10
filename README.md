@@ -46,6 +46,8 @@ Hell("")
 #### If you find a error open a ``ISSUE``, if you want to change something open a ``PULL REQUEST``.
 _______
 
+# :brazil: Ptbr
+
 # 👨‍💻 Utilização
 
 ```sh
