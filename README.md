@@ -13,11 +13,6 @@
 
 ![image](https://user-images.githubusercontent.com/60306241/81494996-5acd5a80-9283-11ea-8eb8-40bac032c8f8.gif)
 
-# linguagens/languages
-
-<details>
-<summary>ENGLISH</summary>
-
 # 👨‍💻 Usage
 
 ```sh
@@ -49,11 +44,6 @@ Hell("")
 # 🌎 Contribute
 
 #### If you find a error open a ``ISSUE``, if you want to change something open a ``PULL REQUEST``.
-</details>
-
-
-<details>
-<summary>PORTUGUESE</summary>
 
 # 👨‍💻 Utilização
 
@@ -88,8 +78,6 @@ Hell("")
 # 🌎 Contribute
 
 #### Se você achou um erro abra uma ``ISSUE``, se você quer mudar algo abra uma ``PULL REQUEST``.
-
-</details>
 
 # License
 #### [MIT ©](./LICENSE) freazesss
