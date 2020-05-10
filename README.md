@@ -14,6 +14,9 @@
 
 ![image](https://user-images.githubusercontent.com/60306241/81494996-5acd5a80-9283-11ea-8eb8-40bac032c8f8.gif)
 
+<details>
+<summary>ENGLISH</summary>
+
 # 👨‍💻 Usage
 
 ```sh
@@ -45,20 +48,11 @@ Hell("")
 # 🌎 Contribute
 
 #### If you find a error open a ``ISSUE``, if you want to change something open a ``PULL REQUEST``.
+</details>
 
 
-# License
-#### [MIT ©](./LICENSE) freazesss
-
-_____
-
-# :brazil: Pt Br
-
-> 💀 Feramenta para automatizar a criação de websites flask.
-
-# 📷 Screenshot
-
-![image](https://user-images.githubusercontent.com/60306241/81494996-5acd5a80-9283-11ea-8eb8-40bac032c8f8.gif)
+<details>
+<summary>PORTUGUESE</summary>
 
 # 👨‍💻 Utilização
 
@@ -94,6 +88,7 @@ Hell("")
 
 #### Se você achou um erro abra uma ``ISSUE``, se você quer mudar algo abra uma ``PULL REQUEST``.
 
+</details>
 
-# Licença
+# License
 #### [MIT ©](./LICENSE) freazesss
