@@ -7,7 +7,8 @@
 ![stars](https://img.shields.io/github/stars/freazesss/hell.svg)
 ![contributors](https://img.shields.io/github/contributors/freazesss/hell.svg)
 
-> 💀 tool to automate create flask sites.
+> 💀 Tool to automate the creation of flask websites.
+- [LEIA EM PTBR](#:brazil:pt-br)
 
 # 📷 Screenshot
 
@@ -47,4 +48,52 @@ Hell("")
 
 
 # License
+#### [MIT ©](./LICENSE) freazesss
+
+_____
+
+# :brazil: Pt Br
+
+> 💀 Feramenta para automatizar a criação de websites flask.
+
+# 📷 Screenshot
+
+![image](https://user-images.githubusercontent.com/60306241/81494996-5acd5a80-9283-11ea-8eb8-40bac032c8f8.gif)
+
+# 👨‍💻 Utilização
+
+```sh
+# Clone esse repo:
+$ git clone https://github.com/freazesss/hell
+# Entre na pasta:
+$ cd hell
+# Baixe o flask:
+$ pip install flask
+# Rode:
+$ python run.py
+```
+
+#### No ``run.py`` arquivo temos:
+
+```py
+from HELL import Hell
+
+Hell("")
+```
+
+#### Nas ``aspas duplas`` você tem que colocar o nome do seu website.
+
+# 🔧 To-Do
+
+- [x] Improve the ``README``.
+- [ ] Create a ``website`` for this project.
+
+
+
+# 🌎 Contribute
+
+#### Se você achou um erro abra uma ``ISSUE``, se você quer mudar algo abra uma ``PULL REQUEST``.
+
+
+# Licença
 #### [MIT ©](./LICENSE) freazesss
