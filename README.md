@@ -8,7 +8,7 @@
 ![contributors](https://img.shields.io/github/contributors/freazesss/hell.svg)
 
 > 💀 Tool to automate the creation of flask websites.
-- [LEIA EM PTBR](#:brazil:pt-br)
+- [LEIA EM PTBR](#pt-br)
 
 # 📷 Screenshot
 
