@@ -21,7 +21,7 @@ $ pip install HellFlask
 $ pip install Flask
 ```
 
-#### Create one file caled ``run.py`` and put:
+#### Create one file called ``run.py`` and put:
 ```py
 from HellFlask import Hell
 
