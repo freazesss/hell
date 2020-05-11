@@ -13,12 +13,12 @@ class Hell:
         """
 
         asincart = """
-      ___ ___         .__  .__   
-    /   |   \   ____ |  | |  |  
-    /    ~    \_/ __ \|  | |  |  
+      ___ ___         .__  .__
+    /   |   \   ____ |  | |  |
+    /    ~    \_/ __ \|  | |  |
     \    Y    /\  ___/|  |_|  |__
     \___|_  /  \___  >____/____/
-    \/       \/           
+    \/       \/
         """
 
         print(f"""\033[0;31m{asincart}\033[m\n\033[0;32m> Tool to create Flask websites\033[m""")
@@ -28,7 +28,7 @@ class Hell:
             self.commands()
         except KeyboardInterrupt:
             return
-            
+
     def commands(self):
         """
         Make the commands works
@@ -46,4 +46,3 @@ class Hell:
         else:
             print('\033[0;35mYou type it something wrong\033[m')
             self.run()
-            

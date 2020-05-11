@@ -7,7 +7,7 @@
 ![stars](https://img.shields.io/github/stars/freazesss/hell.svg)
 ![contributors](https://img.shields.io/github/contributors/freazesss/hell.svg)
 
-> 💀 Tool to automate the creation of flask websites.
+> 💀 Automate the creation of flask websites..
 
 # 📷 Screenshot
 
@@ -16,73 +16,32 @@
 # 👨‍💻 Usage
 
 ```sh
-# Clone
-$ git clone https://github.com/freazesss/hell
-# Enter in the folder:
-$ cd hell
-# Download the flask:
-$ pip install flask
-# Run
-$ python run.py
+$ pip install HellFlask
+# and
+$ pip install Flask
 ```
 
-#### On the ``run.py`` file we have:
+#### Create one file caled ``run.py`` and put:
 ```py
-from HELL import Hell
+from HellFlask import Hell
 
 Hell("")
 ```
 #### On the ``double quotes`` you go to put your website name.
+#### And run the ``run.py``:
+```
+$ pyhon run.py
+```
 
 # 🔧 To-Do
 
 - [x] Improve the ``README``.
+- [x] Put the HellFlask on ``pip``.
 - [ ] Create a ``website`` for this project.
-
-
 
 # 🌎 Contribute
 
 #### If you find a error open a ``ISSUE``, if you want to change something open a ``PULL REQUEST``.
-_______
-
-# :brazil: Ptbr
-
-# 👨‍💻 Utilização
-
-```sh
-# Clone esse repo:
-$ git clone https://github.com/freazesss/hell
-# Entre na pasta:
-$ cd hell
-# Baixe o flask:
-$ pip install flask
-# Rode:
-$ python run.py
-```
-
-#### No ``run.py`` arquivo temos:
-
-```py
-from HELL import Hell
-
-Hell("")
-```
-
-#### Nas ``aspas duplas`` você tem que colocar o nome do seu website.
-
-# 🔧 To-Do
-
-- [x] Improve the ``README``.
-- [ ] Create a ``website`` for this project.
-
-
-
-# 🌎 Contribute
-
-#### Se você achou um erro abra uma ``ISSUE``, se você quer mudar algo abra uma ``PULL REQUEST``.
-
-______
 
 # License
 #### [MIT ©](./LICENSE) freazesss
