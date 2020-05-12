@@ -23,16 +23,16 @@ $ pip install HellFlask
 $ pip install Flask
 ```
 
-#### Create one file called ``run.py`` and put:
+#### Create one file ``.py`` and put:
 ```py
 from HellFlask import Hell
 
 Hell("")
 ```
 #### On the ``double quotes`` you go to put your website name.
-#### And run the ``run.py``:
+#### And run:
 ```
-$ pyhon run.py
+$ python <you_file_name>.py
 ```
 
 # 🔧 To-Do
