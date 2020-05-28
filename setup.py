@@ -1,13 +1,12 @@
 
 from setuptools import setup
-from os import path
 
-with open("README.md", "r") as fh:
+with open("README.md", "r+") as fh:
     long_description = fh.read()
 
 setup(name='HellFlask',
-      version='0.0.3',
-      description='Automate the creation of flask websites.',
+      version='0.0.5',
+      description='A Simple cli to automate the creation of flask websites with python.',
       long_description=long_description,
       long_description_content_type='text/markdown',
       url='https://github.com/freazesss/hell',

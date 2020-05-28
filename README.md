@@ -7,7 +7,7 @@
 ![stars](https://img.shields.io/github/stars/freazesss/hell.svg)
 ![contributors](https://img.shields.io/github/contributors/freazesss/hell.svg)
 
-> Automate the creation of flask websites..
+> A Simple cli to automate the creation of flask websites with python.
 
 # Screenshot
 
@@ -25,9 +25,9 @@ $ pip install Flask
 ```py
 from HellFlask import Hell
 
-Hell("")
+Hell()
 ```
-#### On the ``double quotes`` you go to put your website name.
+
 #### And run:
 ```
 $ pyhon <you_file_name>.py
