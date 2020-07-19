@@ -1,6 +1,6 @@
 from sys import argv
 from platform import system as sys
-from os import system
+from subprocess import call
 from .create import website
 
 class Hell:
@@ -25,6 +25,6 @@ class Hell:
             if argv[1] == "--createwebsite":
                 website()
             elif argv[1] == "--runwebsite":
-                system(f'python3 app{sis}run.py')
+                call(f'python app{sis}run.py', shell=True)
         else:
             print('\033[0;35mYou type it something wrong\n\nTry:\n --createwebsite \n --runwebsite\033[m')

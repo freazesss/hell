@@ -1,4 +1,4 @@
-from os import system
+from subprocess import call
 from platform import system as sys
 
 
@@ -16,7 +16,7 @@ class website:
         elif sys() == "Windows":
             sis = r"\\"
 
-        system(f'mkdir -p app{sis}home')
+        call(f'mkdir -p app{sis}home', shell=True)
         with open(f'app{sis}home{sis}views.py', 'w+') as f:
             f.write("""from . import home
 from flask import render_template
@@ -27,7 +27,7 @@ def homepage():
 
 """)
 
-        system(f'mkdir app{sis}templates')
+        call(f'mkdir app{sis}templates', shell=True)
         with open(f'app{sis}templates{sis}home.html', 'w+') as f:
             f.write("""
 <!DOCTYPE html>
@@ -43,7 +43,7 @@ def homepage():
 </body>
 </html>
 """)
-        system(f'mkdir app{sis}static')
+        call(f'mkdir app{sis}static', shell=True)
         with open(f'app{sis}static{sis}style.css', 'w+') as f:
             f.write("""
 * {
