@@ -6,6 +6,7 @@
 [![license](https://img.shields.io/github/license/freazesss/hell)](./LICENSE)
 ![stars](https://img.shields.io/github/stars/freazesss/hell.svg)
 ![contributors](https://img.shields.io/github/contributors/freazesss/hell.svg)
+[![CodeFactor](https://www.codefactor.io/repository/github/freazesss/hell/badge)](https://www.codefactor.io/repository/github/freazesss/hell)
 
 > A Simple cli to automate the creation of flask websites with python.
 
