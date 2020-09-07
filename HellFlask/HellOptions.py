@@ -5,11 +5,11 @@ from subprocess import call
 class Built:
     def write(f_name: str, *f_arguments):
         with open(f_name, "w+") as f:
-            for i in range(len(f_arguments)):
+            for i, fold in enumerate(f_arguments):
                 f.write(f_arguments[i])
     
     def create_folders(*folders):
-        for i in range(len(folders)):
+        for i, fold in enumerate(folders):
             call(f"mkdir -p {folders[i]}")
 
     verify = lambda : r"\\" if system() == "Windows" else "/"
